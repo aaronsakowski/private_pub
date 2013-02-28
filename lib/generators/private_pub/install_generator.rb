@@ -10,7 +10,6 @@ module PrivatePub
         if ::Rails.version < "3.1"
           copy_file "../../../../app/assets/javascripts/private_pub.js", "public/javascripts/private_pub.js"
         end
-        copy_file "private_pub.ru", "private_pub.ru"
       end
     end
   end
